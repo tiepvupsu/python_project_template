@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from .context import sample
+# from kfc.context import sample
+import kfc
 
 import unittest
 
@@ -12,5 +13,5 @@ class BasicTestSuite(unittest.TestCase):
         assert True
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

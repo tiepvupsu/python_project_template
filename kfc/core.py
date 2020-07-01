@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from . import helpers
+from kfc import helpers
 
 
 def get_hmm():
