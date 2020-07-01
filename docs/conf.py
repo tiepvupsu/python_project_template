@@ -207,7 +207,7 @@ latex_documents = [
 
 # -- Options for manual page output --------------------------------------------
 
-# One entry per manual page. List of tuples
+# One entry per manual page. List of tuplens
 # (source start file, name, description, authors, manual section).
 man_pages = [("index", "sample", u"sample Documentation", [u"Kenneth Reitz"], 1)]
 
@@ -240,4 +240,3 @@ texinfo_documents = [
 
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 # texinfo_show_urls = 'footnote'
-
