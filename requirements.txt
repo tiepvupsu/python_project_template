@@ -1,2 +1,7 @@
 nose
 sphinx
+mypy==0.761
+pre-commit==2.2.0
+pytest==5.3.5
+qcore==0.5.1
+isort==4.3.21
