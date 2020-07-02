@@ -89,3 +89,6 @@ kfc_venv
 
 # Rope project settings
 .ropeproject
+
+# mypy
+.mypy_cache/
