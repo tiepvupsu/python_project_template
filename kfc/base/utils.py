@@ -7,6 +7,7 @@ def random_string(length: int = 10) -> str:
 
     Args:
         length: output length
+
     Returns:
         a random string with length being `length`
     """

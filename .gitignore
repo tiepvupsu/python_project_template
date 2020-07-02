@@ -92,3 +92,6 @@ kfc_venv
 
 # mypy
 .mypy_cache/
+
+# vscode
+.vscode/
