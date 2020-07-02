@@ -4,4 +4,4 @@ max-line-length = 88
 exclude = .git,__pycache__,docs/source/conf.py,old,build,dist,.venv,src,venv
 application-import-names=kd
 import-order-style=google
-filename = *.py, ./kd/*.py
+filename = *.py, ./kfc/*.py ./tests/*.py ./docs/conf.py
