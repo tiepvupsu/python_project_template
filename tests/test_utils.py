@@ -1,7 +1,7 @@
 from qcore.asserts import assert_eq
 import random
 
-from kfc.base.utils import random_string
+from python_project_template.utils import random_string
 
 
 class TestRandomString:
