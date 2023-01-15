@@ -38,7 +38,7 @@ jobs:
       - name: Install python_project_template
         run: |
           python setup.py install
-      - name: Lint with flake8, tpye check with mypy
+      - name: Lint with flake8, type check with mypy
         run: |
           flake8 ./tests
           mypy --show-traceback ./python_project_template ./tests
