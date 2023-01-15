@@ -34,7 +34,6 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install -e .[dev]
-          pip install pytest-cov
       - name: Lint with flake8, type check with mypy
         run: |
           flake8 ./tests
@@ -42,15 +41,4 @@ jobs:
       - name: Test with pytest
         run: |
           # python3 -m pytest -s --durations=0 . # https://stackoverflow.com/a/55095253
-          python3 -m pytest -s --durations=0 --cov=./ --cov-report=xml tests/
-      - name: "Upload coverage to Codecov"
-        uses: codecov/codecov-action@v1
-        with:
-          fail_ci_if_error: true
-          files: ./coverage.xml
-          directory: ./coverage/reports/
-          flags: pytest
-          env_vars: OS,PYTHON
-          name: codecov-umbrella
-          path_to_write_report: ./coverage/codecov_report.txt
-          verbose: true
+          python3 -m pytest -s --durations=0 tests/
