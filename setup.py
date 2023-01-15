@@ -12,6 +12,7 @@ docs_packages = ["mkdocs==1.3.0", "mkdocstrings==0.18.1"]
 style_packages = [
     "black==22.3.0",
     "isort==5.10.1",
+    "mypy==0.910",
     "types-PyYAML==6.0.9",
     "types-pytz==2022.6.0.1",
     "types-requests==2.28.11.2",
