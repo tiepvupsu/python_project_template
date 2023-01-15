@@ -2,7 +2,7 @@
 
 Supports:
 - [ ] github actions with pytest, codecov
-- [ ] flake8, mypy, precommit 
+- [ ] flake8, mypy, precommit
 
 # How to start
 
@@ -19,3 +19,6 @@ git clone https://github.com/tiepvupsu/python_project_template <your_project_nam
 git remote set-url origin <https_created_at_step_0>
 ```
 
+3. Replace all `python_project_template` in the new repo by `<your_project_name>
+
+Tip: Use `Cmd + Shift + H` in VS Code.
