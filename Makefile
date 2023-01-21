@@ -7,8 +7,7 @@ venv:
 	python3 -m pip install pip setuptools wheel && \
 	python3 -m pip install --upgrade pip && \
 	python3 -m pip install -e .[dev] && \
-	pre-commit install && \
-	pre-commit autoupdate
+	pre-commit install
 
 
 # Style
